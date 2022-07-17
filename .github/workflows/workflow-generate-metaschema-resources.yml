@@ -121,7 +121,7 @@ jobs:
       run: |
         zip ${{ runner.temp }}/metaschema-artifacts.zip -r xml/schema/*.xsd json/schema/*.json xml/convert/*.xsl json/convert/*.xsl
       working-directory: ${{ env.CHECKOUT_PATH }}
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: schemas-and-converters
         path: |

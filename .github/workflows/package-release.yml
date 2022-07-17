@@ -41,7 +41,7 @@ jobs:
           bash "${OSCAL_CICD_PATH}/package-release.sh" "${OSCAL_WORKING_PATH}"
           tar -jcvf "${OSCAL_WORKING_PATH}/${RELEASE_NAME}.tar.bz2" -C "${OSCAL_WORKING_PATH}/archive" .
           (cd "${OSCAL_WORKING_PATH}/archive" && zip -r "../${RELEASE_NAME}.zip" .)
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: release-artifacts
           path: |

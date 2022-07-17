@@ -123,7 +123,7 @@ jobs:
     - name: Generate specification documentation
       run: |
         bash "${CICD_PATH}/generate-specification-documentation.sh"
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: specification-docs
         path: |
@@ -137,7 +137,7 @@ jobs:
       run: |
         zip ${{ runner.temp }}/metaschema-website.zip -r public/
       working-directory: ${{ github.workspace }}/docs
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: website
         path: |
