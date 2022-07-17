@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       # use this for main repo master builds
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           path: ${{ env.OSCAL_HOME }}
           submodules: recursive
