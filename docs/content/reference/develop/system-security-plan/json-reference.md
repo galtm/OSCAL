@@ -5139,7 +5139,7 @@ The following is the JSON format reference for this [model](/concepts/layer/impl
                         <div class="instance-header">
                            <h3 id="/system-security-plan/system-characteristics/security-sensitivity-level" class="toc3 name">security-sensitivity-level</h3>
                            <p class="type"><a href="/reference/datatypes/#string">string</a></p>
-                           <p class="occurrence">[1]</p>
+                           <p class="occurrence">[0 or 1]</p>
                            <div class="crosslink"><a class="usa-button" href="../xml-reference/#/system-security-plan/system-characteristics/security-sensitivity-level">Switch to XML</a></div>
                            <p class="formal-name">Security Sensitivity Level</p>
                         </div>
@@ -7180,7 +7180,7 @@ The following is the JSON format reference for this [model](/concepts/layer/impl
                         <div class="instance-header">
                            <h3 id="/system-security-plan/system-characteristics/security-impact-level" class="toc3 name">security-impact-level</h3>
                            <p class="type">object<br /> <a class="definition-link" href="../json-definitions/#/assembly/oscal-ssp/system-characteristics/security-impact-level">(global definition)</a></p>
-                           <p class="occurrence">[1]</p>
+                           <p class="occurrence">[0 or 1]</p>
                            <div class="crosslink"><a class="usa-button" href="../xml-reference/#/system-security-plan/system-characteristics/security-impact-level">Switch to XML</a></div>
                            <p class="formal-name">Security Impact Level</p>
                         </div>

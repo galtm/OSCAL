@@ -1008,7 +1008,7 @@ The following outline is a representation of the [JSON format](https://github.co
                      <p class="OM-line"><a class="OM-name" href="../json-reference/#/system-security-plan/system-characteristics/date-authorized">date-authorized</a> <span class="OM-cardinality">[0 or 1]</span>: <span class="OM-datatype"><a href="/reference/datatypes/#date">date</a></span><span class="OM-lit">,</span></p>
                   </div>
                   <div class="OM-entry">
-                     <p class="OM-line"><a class="OM-name" href="../json-reference/#/system-security-plan/system-characteristics/security-sensitivity-level">security-sensitivity-level</a> <span class="OM-cardinality">[1]</span>: <span class="OM-datatype"><a href="/reference/datatypes/#string">string</a></span><span class="OM-lit">,</span></p>
+                     <p class="OM-line"><a class="OM-name" href="../json-reference/#/system-security-plan/system-characteristics/security-sensitivity-level">security-sensitivity-level</a> <span class="OM-cardinality">[0 or 1]</span>: <span class="OM-datatype"><a href="/reference/datatypes/#string">string</a></span><span class="OM-lit">,</span></p>
                   </div>
                   <details class="OM-entry">
                      <summary><a class="OM-name" href="../json-reference/#/system-security-plan/system-characteristics/system-information">system-information</a> <span class="OM-cardinality">[1]</span>: <span class="OM-lit">{<span class="show-closed"> … }, </span></span></summary>
@@ -1407,7 +1407,7 @@ The following outline is a representation of the [JSON format](https://github.co
                      <p><span class="OM-lit"> }, </span></p>
                   </details>
                   <details class="OM-entry">
-                     <summary><a class="OM-name" href="../json-reference/#/system-security-plan/system-characteristics/security-impact-level">security-impact-level</a> <span class="OM-cardinality">[1]</span>: <span class="OM-lit">{<span class="show-closed"> … }, </span></span></summary>
+                     <summary><a class="OM-name" href="../json-reference/#/system-security-plan/system-characteristics/security-impact-level">security-impact-level</a> <span class="OM-cardinality">[0 or 1]</span>: <span class="OM-lit">{<span class="show-closed"> … }, </span></span></summary>
                      <div class="model-container object">
                         <div class="OM-entry">
                            <p class="OM-line"><a class="OM-name" href="../json-reference/#/system-security-plan/system-characteristics/security-impact-level/security-objective-confidentiality">security-objective-confidentiality</a> <span class="OM-cardinality">[1]</span>: <span class="OM-datatype"><a href="/reference/datatypes/#string">string</a></span><span class="OM-lit">,</span></p>

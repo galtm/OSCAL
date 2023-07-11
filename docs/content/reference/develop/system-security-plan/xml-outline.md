@@ -653,7 +653,7 @@ The following outline is a representation of the [XML format](https://github.com
                      <p class="close-tag nobr">&lt;/date-authorized&gt;</p>
                   </details>
                   <details class="OM-entry">
-                     <summary><span class="sq"><span class="nobr">&lt;<a class="OM-name" href="../xml-reference/#/system-security-plan/system-characteristics/security-sensitivity-level">security-sensitivity-level</a></span>&gt;<span class="show-closed"><span class="OM-datatype"><a href="/reference/datatypes/#string">string</a></span><span class="nobr">&lt;/security-sensitivity-level&gt;</span></span></span><span class="sq cardinality"> <span class="OM-cardinality">[1]</span></span></summary>
+                     <summary><span class="sq"><span class="nobr">&lt;<a class="OM-name" href="../xml-reference/#/system-security-plan/system-characteristics/security-sensitivity-level">security-sensitivity-level</a></span>&gt;<span class="show-closed"><span class="OM-datatype"><a href="/reference/datatypes/#string">string</a></span><span class="nobr">&lt;/security-sensitivity-level&gt;</span></span></span><span class="sq cardinality"> <span class="OM-cardinality">[0 or 1]</span></span></summary>
                      <p class="OM-map-name">a <span class="OM-datatype"><a href="/reference/datatypes/#string">string</a></span> value</p>
                      <p class="close-tag nobr">&lt;/security-sensitivity-level&gt;</p>
                   </details>
@@ -909,7 +909,7 @@ The following outline is a representation of the [XML format](https://github.com
                      <p class="close-tag nobr">&lt;/system-information&gt;</p>
                   </details>
                   <details class="OM-entry">
-                     <summary><span class="sq"><span class="nobr">&lt;<a class="OM-name" href="../xml-reference/#/system-security-plan/system-characteristics/security-impact-level">security-impact-level</a></span>&gt;<span class="show-closed"> … <span class="nobr">&lt;/security-impact-level&gt;</span></span></span><span class="sq cardinality"> <span class="OM-cardinality">[1]</span></span></summary>
+                     <summary><span class="sq"><span class="nobr">&lt;<a class="OM-name" href="../xml-reference/#/system-security-plan/system-characteristics/security-impact-level">security-impact-level</a></span>&gt;<span class="show-closed"> … <span class="nobr">&lt;/security-impact-level&gt;</span></span></span><span class="sq cardinality"> <span class="OM-cardinality">[0 or 1]</span></span></summary>
                      <div class="model-container">
                         <details class="OM-entry">
                            <summary><span class="sq"><span class="nobr">&lt;<a class="OM-name" href="../xml-reference/#/system-security-plan/system-characteristics/security-impact-level/security-objective-confidentiality">security-objective-confidentiality</a></span>&gt;<span class="show-closed"><span class="OM-datatype"><a href="/reference/datatypes/#string">string</a></span><span class="nobr">&lt;/security-objective-confidentiality&gt;</span></span></span><span class="sq cardinality"> <span class="OM-cardinality">[1]</span></span></summary>

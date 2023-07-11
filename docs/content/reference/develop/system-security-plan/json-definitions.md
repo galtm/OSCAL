@@ -7890,7 +7890,7 @@ The following is a reference for the JSON object definitions derived from the [m
                   <div class="instance-header">
                      <h2 id="/assembly/oscal-ssp/system-characteristics/security-sensitivity-level" class="toc2 name">security-sensitivity-level</h2>
                      <p class="type"><a href="/reference/datatypes/#string">string</a></p>
-                     <p class="occurrence">[1]</p>
+                     <p class="occurrence">[0 or 1]</p>
                      <div class="crosslink"><a class="usa-button" href="../xml-definitions/#/assembly/oscal-ssp/system-characteristics/security-sensitivity-level">Switch to XML</a></div>
                      <p class="formal-name">Security Sensitivity Level</p>
                   </div>
@@ -7923,7 +7923,7 @@ The following is a reference for the JSON object definitions derived from the [m
                   <div class="instance-header">
                      <h2 id="/assembly/oscal-ssp/system-characteristics/security-impact-level" class="toc2 name">security-impact-level</h2>
                      <p class="type">assembly<br class="br" /> </p>
-                     <p class="occurrence">[1]</p>
+                     <p class="occurrence">[0 or 1]</p>
                      <div class="crosslink"><a class="usa-button" href="../xml-definitions/#/assembly/oscal-ssp/system-characteristics/security-impact-level">Switch to XML</a></div>
                      <p class="formal-name">Security Impact Level</p>
                   </div>

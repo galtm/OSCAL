@@ -5256,7 +5256,7 @@ The following is the XML format reference for this [model](/concepts/layer/imple
                         <div class="instance-header">
                            <h3 id="/system-security-plan/system-characteristics/security-sensitivity-level" class="toc3 name">security-sensitivity-level</h3>
                            <p class="type" id="/system-security-plan/system-characteristics/security-sensitivity-level/_VALUE"><a href="/reference/datatypes/#string">string</a></p>
-                           <p class="occurrence">[1]</p>
+                           <p class="occurrence">[0 or 1]</p>
                            <div class="crosslink"><a class="usa-button" href="../json-reference/#/system-security-plan/system-characteristics/security-sensitivity-level">Switch to JSON</a></div>
                            <p class="formal-name">Security Sensitivity Level</p>
                         </div>
@@ -7385,7 +7385,7 @@ The following is the XML format reference for this [model](/concepts/layer/imple
                         <div class="instance-header">
                            <h3 id="/system-security-plan/system-characteristics/security-impact-level" class="toc3 name">security-impact-level</h3>
                            <p class="type">element<br /> <a class="definition-link" href="../xml-definitions/#/assembly/oscal-ssp/system-characteristics/security-impact-level">(global definition)</a></p>
-                           <p class="occurrence">[1]</p>
+                           <p class="occurrence">[0 or 1]</p>
                            <div class="crosslink"><a class="usa-button" href="../json-reference/#/system-security-plan/system-characteristics/security-impact-level">Switch to JSON</a></div>
                            <p class="formal-name">Security Impact Level</p>
                         </div>
