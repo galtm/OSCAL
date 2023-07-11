@@ -6327,7 +6327,7 @@ The following is a reference for the XML element and attribute types derived fro
             
             <div class="constraint">
                <p><span class="usa-tag">allowed values</span> for <code class="path">prop[has-oscal-namespace('http://csrc.nist.gov/ns/oscal') and @name='asset-type']/@value</code></p>
-               <p>The value <b>must</b> be one of the following:</p>
+               <p>The value <b>may be locally defined</b>, or one of the following:</p>
                <ul>
                   
                   
@@ -9540,7 +9540,7 @@ The following is a reference for the XML element and attribute types derived fro
             
             <div class="constraint">
                <p><span class="usa-tag">allowed values</span> for <code class="path">prop[has-oscal-namespace('http://csrc.nist.gov/ns/oscal') and @name='asset-type']/@value</code></p>
-               <p>The value <b>must</b> be one of the following:</p>
+               <p>The value <b>may be locally defined</b>, or one of the following:</p>
                <ul>
                   
                   
@@ -20897,7 +20897,7 @@ The following is a reference for the XML element and attribute types derived fro
             
             <div class="constraint">
                <p><span class="usa-tag">allowed values</span> for <code class="path">prop[has-oscal-namespace('http://csrc.nist.gov/ns/oscal') and @name='asset-type']/@value</code></p>
-               <p>The value <b>must</b> be one of the following:</p>
+               <p>The value <b>may be locally defined</b>, or one of the following:</p>
                <ul>
                   
                   
